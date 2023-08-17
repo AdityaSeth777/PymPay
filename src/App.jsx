@@ -1,16 +1,20 @@
-import { ProSidebarProvider } from "react-pro-sidebar";
-import React from "react";
+// App.js
+
+import React from 'react';
+import { ProSidebarProvider } from 'react-pro-sidebar';
+import AuthPage from './AuthPage'; // Import the AuthPage component
 import Routes from "./Routes";
-import Login from "./Login"; // Import the Login component
+import './AuthPage.css'; // Add this line if you have a separate CSS file
+//import './App.css'; // If you have other styling
 
 function App() {
   return (
     <ProSidebarProvider>
-      <div>
+      <div className="app-container">
         <h1>Welcome to My Banking App</h1>
-        <Login /> {/* Include the Login component here */}
-        <Routes />
+        <AuthPage /> {/* Include the AuthPage component */}
       </div>
+      <Routes />
     </ProSidebarProvider>
   );
 }

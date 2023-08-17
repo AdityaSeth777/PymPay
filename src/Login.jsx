@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import firebase from '../firebase'; // Import your initialized firebase instance
+import firebase from './firebase'; // Import your initialized firebase instance
 import 'firebase/auth'; // Import only the 'auth' module
 
 const Login = () => {

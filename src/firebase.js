@@ -1,14 +1,20 @@
-import firebase from 'firebase/app';
-import 'firebase/auth';
+// firebase.js
+
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
 
 const firebaseConfig = {
-  apiKey: 'YOUR_API_KEY',
-  authDomain: 'YOUR_AUTH_DOMAIN',
-  projectId: 'YOUR_PROJECT_ID',
-  // Add more config values here
+  apiKey: "AIzaSyAMHdsLO5UnKR95g0mf_DhfUhkAyzN8d14",
+  authDomain: "pympay-aditya.firebaseapp.com",
+  projectId: "pympay-aditya",
+  storageBucket: "pympay-aditya.appspot.com",
+  messagingSenderId: "651633037355",
+  appId: "1:651633037355:web:d1685a142cbe11013e1a6e",
+  measurementId: "G-WV059K66EL"
 };
 
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
-export default firebase;
+export default app; // Export the initialized app
+
