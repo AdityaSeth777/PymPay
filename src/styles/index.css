@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  line-height: normal;
 }
 body {
   font-family: "Roboto", sans-serif !important;
@@ -110,7 +109,7 @@ ul li a{
   justify-content: space-between;
   display: flex;
 }
-@media only screen and (min-width: 200px) and (max-width: 550px)  {
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
   .mobile-menu {
     display: block;
   }
