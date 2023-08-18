@@ -38,6 +38,11 @@ Become a part of the PymPay revolution and step into a world where finance and t
 2.  `npm install`
 3.  `npm start`
 
+## For contributing
+
+Check the [Contributing page.](https://github.com/AdityaSeth777/PymPay/blob/master/Contributing.md)
+Make sure to PR your changes in the development branch.
+
 ## .env file
 
 This file contains various environment variables that you can configure.
@@ -104,7 +109,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br>
-Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm test`
 
