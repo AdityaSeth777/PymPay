@@ -1,8 +1,27 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { ErrorMessage } from "../../components/ErrorMessage";
 
-const Input = React.forwardRef(
+export type InputProps = Omit<
+  React.DetailedHTMLProps<
+    React.InputHTMLAttributes<HTMLInputElement>,
+    HTMLInputElement
+  >,
+  "size" | "prefix" | "type" | "onChange"
+> &
+  Partial<{
+    wrapClassName: string;
+    className: string;
+    name: string;
+    placeholder: string;
+    type: string;
+    errors: string[];
+    label: string;
+    prefix: React.ReactNode;
+    suffix: React.ReactNode;
+    onChange: Function;
+  }>;
+
+const Input = React.forwardRef<HTMLInputElement, InputProps>(
   (
     {
       wrapClassName = "",
@@ -24,7 +43,7 @@ const Input = React.forwardRef(
     },
     ref,
   ) => {
-    const handleChange = (e) => {
+    const handleChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
       if (onChange) onChange(e?.target?.value);
     };
 
@@ -43,8 +62,8 @@ const Input = React.forwardRef(
             className={`${className} bg-transparent border-0`}
             type={type}
             name={name}
-            onChange={handleChange}
             placeholder={placeholder}
+            onChange={handleChange}
             {...restProps}
           />
           {!!suffix && suffix}
@@ -54,13 +73,5 @@ const Input = React.forwardRef(
     );
   },
 );
-
-Input.propTypes = {
-  wrapClassName: PropTypes.string,
-  className: PropTypes.string,
-  name: PropTypes.string,
-  placeholder: PropTypes.string,
-  type: PropTypes.string,
-};
 
 export { Input };

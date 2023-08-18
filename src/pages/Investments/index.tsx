@@ -7,10 +7,10 @@ import { Button, Img, Input, Line, List, Text } from "components";
 
 import { CloseSVG } from "../../assets/images";
 
-const InvestmentsPage = () => {
+const InvestmentsPage: React.FC = () => {
   const navigate = useNavigate();
 
-  const [groupeightvalue, setGroupeightvalue] = React.useState("");
+  const [groupeightvalue, setGroupeightvalue] = React.useState<string>("");
 
   return (
     <>

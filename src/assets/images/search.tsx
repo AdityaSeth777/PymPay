@@ -1,5 +1,12 @@
 import React from "react";
-export const SearchSVG = ({
+
+export type SearchSVGProps = React.SVGProps<SVGSVGElement> &
+  Partial<{
+    fillColor: string;
+    className: string;
+  }>;
+
+export const SearchSVG: React.FC<SearchSVGProps> = ({
   fillColor = "#000000",
   className = "",
   ...props

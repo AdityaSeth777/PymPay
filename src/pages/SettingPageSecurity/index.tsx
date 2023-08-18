@@ -8,10 +8,10 @@ import Sidebar1 from "components/Sidebar1";
 
 import { CloseSVG } from "../../assets/images";
 
-const SettingPageSecurityPage = () => {
+const SettingPageSecurityPage: React.FC = () => {
   const navigate = useNavigate();
 
-  const [groupeightvalue, setGroupeightvalue] = React.useState("");
+  const [groupeightvalue, setGroupeightvalue] = React.useState<string>("");
 
   return (
     <>

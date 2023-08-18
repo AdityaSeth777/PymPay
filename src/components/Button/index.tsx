@@ -1,7 +1,21 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-const Button = ({
+export type ButtonProps = Omit<
+  React.DetailedHTMLProps<
+    React.ButtonHTMLAttributes<HTMLButtonElement>,
+    HTMLButtonElement
+  >,
+  "onClick"
+> &
+  Partial<{
+    className: string;
+
+    leftIcon: React.ReactNode;
+    rightIcon: React.ReactNode;
+    onClick: () => void;
+  }>;
+
+const Button: React.FC<React.PropsWithChildren<ButtonProps>> = ({
   children,
   className = "",
   leftIcon,
@@ -19,11 +33,6 @@ const Button = ({
       {!!rightIcon && rightIcon}
     </button>
   );
-};
-
-Button.propTypes = {
-  className: PropTypes.string,
-  children: PropTypes.node,
 };
 
 export { Button };

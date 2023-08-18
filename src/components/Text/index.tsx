@@ -40,9 +40,25 @@ const sizeClasses = {
   txtInterMedium16Bluegray900: "font-inter font-medium",
   txtInterRegular16: "font-inter font-normal",
   txtInterBold16Indigo600: "font-bold font-inter",
-};
+} as const;
 
-const Text = ({ children, className = "", size, as, ...restProps }) => {
+export type TextProps = Partial<{
+  className: string;
+  size: keyof typeof sizeClasses;
+  as: React.ElementType;
+}> &
+  React.DetailedHTMLProps<
+    React.HTMLAttributes<HTMLSpanElement>,
+    HTMLSpanElement
+  >;
+
+const Text: React.FC<React.PropsWithChildren<TextProps>> = ({
+  children,
+  className = "",
+  size,
+  as,
+  ...restProps
+}) => {
   const Component = as || "p";
 
   return (

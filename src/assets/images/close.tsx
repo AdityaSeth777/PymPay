@@ -1,5 +1,12 @@
 import React from "react";
-export const CloseSVG = ({
+
+export type CloseSVGProps = React.SVGProps<SVGSVGElement> &
+  Partial<{
+    fillColor: string;
+    className: string;
+  }>;
+
+export const CloseSVG: React.FC<CloseSVGProps> = ({
   fillColor = "#000000",
   className = "",
   ...props

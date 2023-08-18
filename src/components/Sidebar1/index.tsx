@@ -4,7 +4,13 @@ import { Sidebar } from "react-pro-sidebar";
 
 import { Img, Line, Text } from "components";
 
-const Sidebar1 = (props) => {
+type Sidebar1Props = React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+> &
+  Partial<{}>;
+
+const Sidebar1: React.FC<Sidebar1Props> = (props) => {
   return (
     <>
       <Sidebar className={props.className}>

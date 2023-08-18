@@ -1,9 +1,25 @@
 import React from "react";
-import Select from "react-select";
-import PropTypes from "prop-types";
+import Select, { Props } from "react-select";
 import { ErrorMessage } from "../ErrorMessage";
 
-const SelectBox = React.forwardRef(
+type selectOptionType = { value: string; label: string };
+
+export type SelectProps = Omit<Props, "getOptionLabel"> &
+  Partial<{
+    placeholder: string;
+    className: string;
+    options: selectOptionType[];
+    isSearchable: boolean;
+    placeholderClassName: string;
+    isMulti: boolean;
+    onChange: (option: any) => void;
+    value: string;
+    errors: string[];
+    indicator: React.ReactElement;
+    getOptionLabel: (e: any) => string;
+  }>;
+
+const SelectBox = React.forwardRef<any, SelectProps>(
   (
     {
       children,
@@ -103,13 +119,9 @@ const SelectBox = React.forwardRef(
               padding: "0",
             }),
             menuPortal: (base) => ({ ...base, zIndex: 999999 }),
-            placeholder: (base) => ({
-              ...base,
-              margin: 0,
-            }),
           }}
           menuPortalTarget={document.body}
-          closeMenuOnScroll={(event) => {
+          closeMenuOnScroll={(event: any) => {
             return event.target.id === "scrollContainer";
           }}
           {...restProps}
@@ -121,25 +133,4 @@ const SelectBox = React.forwardRef(
   },
 );
 
-SelectBox.propTypes = {
-  placeholder: PropTypes.string,
-  className: PropTypes.string,
-  options: PropTypes.array,
-  isSearchable: PropTypes.bool,
-  placeholderClassName: PropTypes.string,
-  isMulti: PropTypes.bool,
-  onChange: PropTypes.func,
-  value: PropTypes.string,
-};
-
-SelectBox.defaultProps = {
-  placeholder: "Select",
-  className: "",
-  isSearchable: false,
-  placeholderClassName: "",
-  isMulti: false,
-  value: "",
-  options: [],
-  onChange: () => {},
-};
 export { SelectBox };

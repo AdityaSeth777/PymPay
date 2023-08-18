@@ -7,10 +7,10 @@ import { Button, Img, Input, Line, List, Slider, Text } from "components";
 
 import { CloseSVG } from "../../assets/images";
 
-const TransactionPage = () => {
+const TransactionPage: React.FC = () => {
   const navigate = useNavigate();
 
-  const [groupeightvalue, setGroupeightvalue] = React.useState("");
+  const [groupeightvalue, setGroupeightvalue] = React.useState<string>("");
   const sliderRef = React.useRef(null);
   const [sliderState, setsliderState] = React.useState(0);
 

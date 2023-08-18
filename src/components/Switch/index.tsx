@@ -1,28 +1,43 @@
 import React from "react";
 import SwitchProvider from "@dhiwise/react-switch";
-import PropTypes from "prop-types";
 import { ErrorMessage } from "../../components/ErrorMessage";
 
-const Switch = ({
-  onColor,
-  offColor,
-  onHandleColor,
-  offHandleColor,
-  value,
-  className,
+export type SwitchProps = Partial<{
+  onColor: string;
+  offColor: string;
+  onHandleColor: string;
+  offHandleColor: string;
+  value: string | boolean;
+  className: string;
+  checkedIcon: React.ReactNode;
+  uncheckedIcon: React.ReactNode;
+  errors: any[];
+  onChange: Function;
+}>;
+
+const Switch: React.FC<SwitchProps> = ({
+  onChange,
+
+  onColor = "",
+  offColor = "",
+  onHandleColor = "",
+  offHandleColor = "",
+  value = false,
+  className = "",
   checkedIcon = <></>,
   uncheckedIcon = <></>,
   errors = [],
-  onChange,
 }) => {
   const [selected, setSelected] = React.useState(value);
   const handleChange = (val) => {
     setSelected(val);
     onChange?.(val);
   };
+
   return (
-    <div className={`${className}`}>
+    <>
       <SwitchProvider
+        className={`${className}`}
         checked={selected}
         onChange={handleChange}
         onColor={onColor}
@@ -33,28 +48,8 @@ const Switch = ({
         uncheckedIcon={uncheckedIcon}
       />
       <ErrorMessage errors={errors} />
-    </div>
+    </>
   );
-};
-
-Switch.propTypes = {
-  onColor: PropTypes.string,
-  offColor: PropTypes.string,
-  onHandleColor: PropTypes.string,
-  offHandleColor: PropTypes.string,
-  value: PropTypes.bool,
-  className: PropTypes.string,
-  checkedIcon: PropTypes.node,
-  uncheckedIcon: PropTypes.node,
-  onChange: PropTypes.func,
-};
-
-Switch.defaultProps = {
-  value: false,
-  className: "",
-  checkedIcon: <></>,
-  onChange: () => {},
-  uncheckedIcon: <></>,
 };
 
 export { Switch };

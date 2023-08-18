@@ -13,10 +13,10 @@ const dateOptionsList = [
   { label: "Option3", value: "option3" },
 ];
 
-const SettingEditProfilePage = () => {
+const SettingEditProfilePage: React.FC = () => {
   const navigate = useNavigate();
 
-  const [groupeightvalue, setGroupeightvalue] = React.useState("");
+  const [groupeightvalue, setGroupeightvalue] = React.useState<string>("");
 
   return (
     <>

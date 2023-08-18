@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "pages/Home";
 import NotFound from "pages/NotFound";
-const SettingPageSecurity = React.lazy(() =>
-  import("pages/SettingPageSecurity"),
+const SettingPageSecurity = React.lazy(
+  () => import("pages/SettingPageSecurity"),
 );
-const SettingPagePreferences = React.lazy(() =>
-  import("pages/SettingPagePreferences"),
+const SettingPagePreferences = React.lazy(
+  () => import("pages/SettingPagePreferences"),
 );
 const SettingEditProfile = React.lazy(() => import("pages/SettingEditProfile"));
 const Services = React.lazy(() => import("pages/Services"));

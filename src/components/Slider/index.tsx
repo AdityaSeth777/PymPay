@@ -1,8 +1,17 @@
 import React from "react";
-import AliceCarousel from "react-alice-carousel";
+import AliceCarousel, { Props } from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
-const Slider = React.forwardRef(
+type SliderComponentProps = Props &
+  Partial<{
+    className: string;
+    items: React.ReactElement[];
+    centerMode: boolean;
+    magnifiedIndex?: number;
+    activeSlideCSS?: string;
+  }>;
+
+const Slider = React.forwardRef<AliceCarousel, SliderComponentProps>(
   (
     {
       className,
