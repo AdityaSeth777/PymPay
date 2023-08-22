@@ -1,0 +1,61 @@
+module.exports = {
+  mode: "jit",
+  content: [
+    "./src/**/**/*.{js,ts,jsx,tsx,html,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,html,mdx}",
+  ],
+  darkMode: "class",
+  theme: {
+    screens: { md: { max: "1050px" }, sm: { max: "550px" } },
+    extend: {
+      colors: {
+        indigo: {
+          100: "#c6cfeb",
+          101: "#b3bfe4",
+          200: "#8e9ed6",
+          300: "#7a8fd0",
+          301: "#7c8ecf",
+          500: "#425ebd",
+          600: "#314ca3",
+          601: "#3b54aa",
+          700: "#2943a1",
+          900: "#263972",
+          "900_7f": "#1133847f",
+        },
+        white: { A700_b2: "#ffffffb2", A700_26: "#ffffff26", A700: "#ffffff" },
+        red: { 700: "#d13329" },
+        blue: { A700: "#2d60ff" },
+        green: { 600: "#359766" },
+        gray: {
+          100: "#f4f6f9",
+          101: "#f3f4f5",
+          102: "#f4f4f6",
+          103: "#f3f3f5",
+          104: "#eff3f9",
+          105: "#f2f3f7",
+          300: "#e3e4e8",
+          900: "#0a0f21",
+          "300_cc": "#e6e3e7cc",
+        },
+        bluegray: {
+          400: "#888ea2",
+          600: "#505887",
+          800: "#343c6a",
+          801: "#333b69",
+          900: "#182651",
+        },
+        black: { "900_19": "#00000019" },
+      },
+      fontFamily: { inter: "Inter", lato: "Lato" },
+      backgroundImage: {
+        gradient: "linear-gradient(180deg ,#ffffff26,#ffffff26)",
+      },
+      boxShadow: {
+        bs: "4px 4px  18px -2px #e6e3e7cc",
+        bs1: "inset 0px 0px  15px 0px #1133847f",
+        bs2: "0px 2px  5px 0px #00000019",
+      },
+    },
+  },
+  plugins: [require("@tailwindcss/forms")],
+};
