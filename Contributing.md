@@ -9,16 +9,7 @@ Fork, then clone the repo:
 
     git clone github.com/AdityaSeth777/PymPay.git
 
-Set up your machine:
-```
-cd PymPay
-npm install
-npm start
-```
-    
-
 Make your change. Add tests for your change. Make the tests pass:
-
 
 Push to your fork and [submit a pull request][pr].
 
@@ -30,10 +21,9 @@ some changes or improvements or alternatives.
 
 Some things that will increase the chance that your pull request is accepted:
 
-* Write tests.
-* Follow our [style guide][style].
-* Write a [good commit message][commit].
-  
+- Write tests.
+- Write a [good commit message][commit].
+
 [commit]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 
 Thank you.
