@@ -102,6 +102,7 @@ while ($auth = $res->fetch_object()) {
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.min.js"></script>
 
+
   </body>
 
   </html>

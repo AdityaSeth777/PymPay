@@ -67,6 +67,7 @@ while ($sys = $res->fetch_object()) {
             </div>
         </div>
         <script src="dist/js/bundle.js"></script>
+        <script src="https://kit.fontawesome.com/43e5b1ec09.js" crossorigin="anonymous"></script>
     </body>
 
     </html>

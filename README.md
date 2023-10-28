@@ -43,6 +43,20 @@ This file contains various environment variables that you can configure.
 
 **PORT** - Port to run your frontend.
 
+<!--
+1. Admin
+    Email    : sysadmin@ibanking.com
+    Password : admin
+
+2. Staff
+    Email    : staff@ibanking.com
+    Password : demo
+
+3. Client
+    Create Client Account
+
+!-->
+
 ## License
 
 MIT License

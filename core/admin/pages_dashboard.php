@@ -462,6 +462,7 @@ $stmt->close();
   <script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
   <!-- ChartJS -->
   <script src="plugins/chart.js/Chart.min.js"></script>
+  <script src="https://kit.fontawesome.com/43e5b1ec09.js" crossorigin="anonymous"></script>
 
   <!-- PAGE SCRIPTS -->
   <script src="dist/js/pages/dashboard2.js"></script>

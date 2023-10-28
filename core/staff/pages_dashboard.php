@@ -435,6 +435,8 @@ $stmt->close();
   <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
   <!-- AdminLTE App -->
   <script src="dist/js/adminlte.js"></script>
+  <script src="https://kit.fontawesome.com/43e5b1ec09.js" crossorigin="anonymous"></script>
+
 
   <!-- OPTIONAL SCRIPTS -->
   <script src="dist/js/demo.js"></script>
