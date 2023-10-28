@@ -21,7 +21,7 @@ if (isset($_POST['withdrawal'])) {
     $client_phone = $_POST['client_phone'];
     //$acc_new_amt = $_POST['acc_new_amt'];
     //$notification_details = $_POST['notification_details'];
-    $notification_details = "$client_name Has Withdrawn Ksh $transaction_amt From Bank Account $account_number";
+    $notification_details = "$client_name Has Withdrawn Rs $transaction_amt From Bank Account $account_number";
 
     /*
     * The below code will handle the withdrwawal process that is first it 
@@ -40,7 +40,7 @@ if (isset($_POST['withdrawal'])) {
 
 
     if ($transaction_amt > $amt) {
-        $err = "You Do Not Have Sufficient Funds In Your Account.Your Existing Amount is Ksh $amt";
+        $err = "You Do Not Have Sufficient Funds In Your Account.Your Existing Amount is Rs $amt";
     } else {
 
 

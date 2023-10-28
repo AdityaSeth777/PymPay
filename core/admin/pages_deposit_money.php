@@ -23,7 +23,7 @@ if (isset($_POST['deposit'])) {
     //$acc_new_amt = $_POST['acc_new_amt'];
 
     //Notication
-    $notification_details = "$client_name Has Deposited Ksh $transaction_amt To Bank Account $account_number";
+    $notification_details = "$client_name Has Deposited Rs $transaction_amt To Bank Account $account_number";
 
 
     //Insert Captured information to a database table
@@ -174,7 +174,7 @@ if (isset($_POST['deposit'])) {
                                                     <input type="text" name="tr_code" readonly value="<?php echo $_transcode; ?>" required class="form-control" id="exampleInputEmail1">
                                                 </div>
                                                 <div class=" col-md-6 form-group">
-                                                    <label for="exampleInputPassword1">Amount Deposited(Ksh)</label>
+                                                    <label for="exampleInputPassword1">Amount Deposited(Rs)</label>
                                                     <input type="text" name="transaction_amt" required class="form-control" id="exampleInputEmail1">
                                                 </div>
                                                 <div class=" col-md-4 form-group" style="display:none">

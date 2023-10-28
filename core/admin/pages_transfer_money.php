@@ -27,7 +27,7 @@ if (isset($_POST['deposit'])) {
     $receiving_acc_holder = $_POST['receiving_acc_holder'];
 
     //Notication
-    $notification_details = "$client_name Has Transfered Ksh $transaction_amt From Bank Account $account_number To Bank Account $receiving_acc_no";
+    $notification_details = "$client_name Has Transfered Rs $transaction_amt From Bank Account $account_number To Bank Account $receiving_acc_no";
 
 
     /*
@@ -46,7 +46,7 @@ if (isset($_POST['deposit'])) {
 
 
     if ($transaction_amt > $amt) {
-        $transaction_error  =  "You Do Not Have Sufficient Funds In Your Account For Transfer Your Current Account Balance Is Ksh $amt";
+        $transaction_error  =  "You Do Not Have Sufficient Funds In Your Account For Transfer Your Current Account Balance Is Rs $amt";
     } else {
 
 
@@ -191,7 +191,7 @@ if (isset($_POST['deposit'])) {
                                                     <input type="text" readonly value="<?php echo $amt; ?>" required class="form-control" id="exampleInputEmail1">
                                                 </div>
                                                 <div class=" col-md-4 form-group">
-                                                    <label for="exampleInputPassword1">Amount Transfered(Ksh)</label>
+                                                    <label for="exampleInputPassword1">Amount Transfered(Rs)</label>
                                                     <input type="text" name="transaction_amt" required class="form-control" id="exampleInputEmail1">
                                                 </div>
                                             </div>

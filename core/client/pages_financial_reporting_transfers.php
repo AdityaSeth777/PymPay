@@ -93,7 +93,7 @@ $client_id = $_SESSION['client_id'];
                         <td><?php echo $cnt; ?></td>
                         <td><?php echo $row->tr_code; ?></a></td>
                         <td><?php echo $row->account_number; ?></td>
-                        <td>Ksh <?php echo $row->transaction_amt; ?></td>
+                        <td>Rs <?php echo $row->transaction_amt; ?></td>
                         <td><?php echo $row->client_name; ?></td>
                         <td><?php echo $row->receiving_acc_no; ?></td>
                         <td><?php echo $row->receiving_acc_holder; ?></td>

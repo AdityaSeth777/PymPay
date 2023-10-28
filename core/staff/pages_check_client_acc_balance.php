@@ -162,10 +162,10 @@ $staff_id = $_SESSION['staff_id'];
                                                 <tbody>
 
                                                     <tr>
-                                                        <td>Ksh <?php echo $deposit; ?></td>
-                                                        <td>Ksh <?php echo $withdrawal; ?></td>
-                                                        <td>Ksh <?php echo $Transfer; ?></td>
-                                                        <td>Ksh <?php echo $money_in; ?></td>
+                                                        <td>Rs <?php echo $deposit; ?></td>
+                                                        <td>Rs <?php echo $withdrawal; ?></td>
+                                                        <td>Rs <?php echo $Transfer; ?></td>
+                                                        <td>Rs <?php echo $money_in; ?></td>
                                                     </tr>
 
                                                 </tbody>
@@ -192,23 +192,23 @@ $staff_id = $_SESSION['staff_id'];
                                                 <table class="table">
                                                     <tr>
                                                         <th style="width:50%">Funds In:</th>
-                                                        <td>Ksh <?php echo $deposit; ?></td>
+                                                        <td>Rs <?php echo $deposit; ?></td>
                                                     </tr>
                                                     <tr>
                                                         <th>Funds Out</th>
-                                                        <td>Ksh <?php echo $money_out; ?></td>
+                                                        <td>Rs <?php echo $money_out; ?></td>
                                                     </tr>
                                                     <tr>
                                                         <th>Sub Total:</th>
-                                                        <td>Ksh <?php echo $money_in; ?></td>
+                                                        <td>Rs <?php echo $money_in; ?></td>
                                                     </tr>
                                                     <tr>
                                                         <th>Banking Intrest:</th>
-                                                        <td>Ksh <?php echo $rate_amt; ?></td>
+                                                        <td>Rs <?php echo $rate_amt; ?></td>
                                                     </tr>
                                                     <tr>
                                                         <th>Total Balance:</th>
-                                                        <td>Ksh <?php echo $totalMoney; ?></td>
+                                                        <td>Rs <?php echo $totalMoney; ?></td>
                                                     </tr>
                                                 </table>
                                             </div>
