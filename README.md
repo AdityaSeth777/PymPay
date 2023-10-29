@@ -130,4 +130,4 @@ Contact: [adityaseth.cse@gmail.com]
 
 ---
 
-Made with ❤️ and PhP <br><br>
+Made with ❤️ and PHP - JavaScript <br><br>
