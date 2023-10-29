@@ -113,12 +113,21 @@ This file contains various environment variables that you can configure.
 
 ## License
 
-MIT License
+[Unlicense © Aditya Seth](https://github.com/AdityaSeth777/PymPay/blob/main/License)
 
-Copyright (c) Aditya Seth
+## What next?
 
-Permission is hereby granted, to any person obtaining a copy of this software and associated documentation files (the "Software"),to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+I will be improving this project.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+## Where to contact ?
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Contact: [adityaseth.cse@gmail.com]
+
+## 🙋‍♂️ Support
+
+💙 If you like this project, give it a ⭐ and share it with friends!<br><br>
+[☕ Buy me a coffee](https://www.buymeacoffee.com/adityaseth)
+
+---
+
+Made with ❤️ and PhP <br><br>
