@@ -113,7 +113,7 @@ This file contains various environment variables that you can configure.
 
 ## License
 
-[Unlicense © Aditya Seth](https://github.com/AdityaSeth777/PymPay/blob/main/LICENSE)
+[MIT © Aditya Seth](https://github.com/AdityaSeth777/PymPay/blob/main/LICENSE)
 
 ## What next?
 
