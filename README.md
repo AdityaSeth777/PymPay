@@ -72,7 +72,7 @@ To use this application, follow these steps:
 
 1. Open `XAMPP Control Panel` and start the `Apache` and `MySQL` services.
 
-2. Open a web browser. Go to the URL `http://localhost/PymPay/core` or `http://127.0.0.1/PymPay/core`.
+2. Open a web browser. Go to the URL `https://pympay-adi.netlify.app/`, and click on `Login`.
 
 3. You will see a homepage and then a login page where you can enter your username and password to access the application.
 
