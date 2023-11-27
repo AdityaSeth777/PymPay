@@ -221,5 +221,5 @@ if (isset($_POST['update_account'])) {
         });
     </script>
 </body>
-
+<script src="https://kit.fontawesome.com/43e5b1ec09.js" crossorigin="anonymous"></script>
 </html>

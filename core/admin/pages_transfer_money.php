@@ -277,5 +277,5 @@ if (isset($_POST['deposit'])) {
         });
     </script>
 </body>
-
+<script src="https://kit.fontawesome.com/43e5b1ec09.js" crossorigin="anonymous"></script>
 </html>

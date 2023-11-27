@@ -114,7 +114,7 @@ while ($auth = $res->fetch_object()) {
         <script src="dist/js/adminlte.min.js"></script>
 
     </body>
-
+<script src="https://kit.fontawesome.com/43e5b1ec09.js" crossorigin="anonymous"></script>
     </html>
 <?php
 } ?>

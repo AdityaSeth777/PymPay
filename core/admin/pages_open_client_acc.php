@@ -224,5 +224,5 @@ if (isset($_POST['open_account'])) {
         });
     </script>
 </body>
-
+<script src="https://kit.fontawesome.com/43e5b1ec09.js" crossorigin="anonymous"></script>
 </html>

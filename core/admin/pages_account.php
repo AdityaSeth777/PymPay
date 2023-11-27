@@ -245,5 +245,5 @@ if (isset($_POST['change_password'])) {
     <!-- AdminLTE for demo purposes -->
     <script src="dist/js/demo.js"></script>
 </body>
-
+<script src="https://kit.fontawesome.com/43e5b1ec09.js" crossorigin="anonymous"></script>
 </html>
