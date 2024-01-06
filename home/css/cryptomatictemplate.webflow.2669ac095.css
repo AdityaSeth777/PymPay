@@ -5295,6 +5295,7 @@ figcaption {
   font-weight: 500;
   line-height: 1.111em;
   text-decoration: none;
+  display: flex;
 }
 
 .btn-primary:hover {
@@ -5870,6 +5871,10 @@ figcaption {
 .line-rounded-icon.link-icon-right {
   margin-left: 6px;
   display: inline-block;
+}
+
+.link-icon-right{
+  padding-top: 4%;
 }
 
 .line-rounded-icon.link-icon-left {
@@ -12415,4 +12420,11 @@ figcaption {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+
+#learn-more-text{
+  padding:0;
+  margin:0;
+  padding-top: 4%;
 }
