@@ -2,7 +2,18 @@
 
 # Welcome to PymPay: Your Financial Universe 🌌
 
-Introducing PymPay, where the world of finance meets the marvel of technology! Seamlessly blending the innovative spirit of Hank Pym (aka Ant-Man) with the convenience of modern online banking, PymPay is your gateway to effortless transactions, secure payments, and financial empowerment.
+### Introducing PymPay, where the world of finance meets the marvel of technology! Seamlessly blending the innovative spirit of Hank Pym (aka Ant-Man) with the convenience of modern online banking, PymPay is your gateway to effortless transactions, secure payments, and financial empowerment.
+
+________________________________________
+# It is an open source software :D
+I originally developed this with no intentions of this being an open source software or keeping it one. But time went on and I believed that it would actually develop more if it was an open source software and now it is open for other devs to contribute to. It was originally developed by me and I'll mention every dev who will be contributing to this :->
+
+| GitHub ID  | Contribution | PR Link |
+| ------------- | ------------- | ------------- | 
+| [@deepbeatz](https://github.com/deepbeatz)  | Minor Text Alignment in buttons fixed  | [Pull Req. #8](https://github.com/AdityaSeth777/PymPay/pull/8)  | 
+| [@SatyakiDey75](https://github.com/SatyakiDey75)  | Updated portfolio url of main dev  | [Pull Req. #9](https://github.com/AdityaSeth777/PymPay/pull/9)  | 
+
+-----------
 
 ## Why Choose PymPay?
 
@@ -15,6 +26,7 @@ Introducing PymPay, where the world of finance meets the marvel of technology! S
 🌐 **Global Reach**: With PymPay, your financial universe knows no bounds. Send and receive funds across galaxies with ease.
 
 📈 **Growth and Control**: Like Pym's research, PymPay empowers you to control and grow your financial journey, unlocking opportunities as you go.
+
 
 ## Join the PymPay Movement
 
