@@ -1647,7 +1647,7 @@ __p+='`),
         function d() {
           var y = e('<a class="w-webflow-badge"></a>').attr(
               "href",
-              "https://adityaseth.me"
+              "https://adityaseth.in"
             ),
             g = e("<img>")
               .attr("src", "https://i.postimg.cc/N0C6My6H/logo.png")
