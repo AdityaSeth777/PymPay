@@ -1,6 +1,27 @@
 ![](./logo.png)
 
+ <p>
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=AdityaSeth777%2FPymPay%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/AdityaSeth777/PymPay)
+![GitHub Repo stars](https://img.shields.io/github/stars/AdityaSeth777/PymPay)
+![GitHub contributors](https://img.shields.io/github/contributors/AdityaSeth777/PymPay)
+![GitHub last commit](https://img.shields.io/github/last-commit/AdityaSeth777/PymPay)
+![GitHub repo size](https://img.shields.io/github/repo-size/AdityaSeth777/PymPay)
+![Github](https://img.shields.io/github/license/AdityaSeth777/PymPay)
+![GitHub issues](https://img.shields.io/github/issues/AdityaSeth777/PymPay)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/AdityaSeth777/PymPay)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AdityaSeth777/PymPay)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/AdityaSeth777/PymPay)
+
+ </p>
+
+
+
 # Welcome to PymPay: Your Financial Universe 🌌
+
 
 ### Introducing PymPay, where the world of finance meets the marvel of technology! Seamlessly blending the innovative spirit of Hank Pym (aka Ant-Man) with the convenience of modern online banking, PymPay is your gateway to effortless transactions, secure payments, and financial empowerment.
 
