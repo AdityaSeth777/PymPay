@@ -33,6 +33,7 @@ I originally developed this with no intentions of this being an open source soft
 | ------------- | ------------- | ------------- | 
 | [@deepbeatz](https://github.com/deepbeatz)  | Minor Text Alignment in buttons fixed  | [Pull Req. #8](https://github.com/AdityaSeth777/PymPay/pull/8)  | 
 | [@SatyakiDey75](https://github.com/SatyakiDey75)  | Updated portfolio url of main dev  | [Pull Req. #9](https://github.com/AdityaSeth777/PymPay/pull/9)  | 
+| [@apu52](https://github.com/apu52)  | Added badges to the readme from [Shields](https://github.com/badges/shields)  | [Pull Req. #14](https://github.com/AdityaSeth777/PymPay/pull/14)  | 
 
 -----------
 
